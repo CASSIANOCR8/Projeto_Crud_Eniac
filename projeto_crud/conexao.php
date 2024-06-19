@@ -8,6 +8,11 @@ $bd_name = 'bd_crud';
 $connx = mysqli_connect($host, $user, $passwd, $bd_name);
 
 
-
+//if ($connx) {
+    // 'conetou';
+    
+//}else{
+    //echo 'Falhou';
+//} 
 
 ?>

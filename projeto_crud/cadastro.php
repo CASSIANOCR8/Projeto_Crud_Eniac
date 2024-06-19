@@ -11,6 +11,6 @@ $recebendo_cadastros = "INSERT INTO
 clientes
 VALUES (' ', '$nome','$email','$telefone','$endereco')"; 
 $query_cadastros =mysqli_query($connx, $recebendo_cadastros);
-header('location:listagem.php');
+header('location:produtos.php');
 
 ?>
